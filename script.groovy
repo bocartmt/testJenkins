@@ -2,7 +2,7 @@ def buildApp(){
     echo 'the application is building'
 }
 def testApp(){
-    echo echo 'the application is testing'
+    echo 'the application is testing'
 }
 def deployApp(){
     echo "the application is deploying ${params.VERSION}"
